@@ -1,0 +1,52 @@
+/* common button and text */
+.btn-main {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: #87c91d;
+  border: 2px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out;
+  background-color :.15s ease-in-out;
+  border-color :.15s ease-in-out;
+  box-shadow: .15s ease-in-out;
+  color: white;
+}
+
+.btn-main:hover{
+  background-color: #7cbe11;
+}
+.btn-check:focus+.btn-main, .btn-main:focus {
+  background-color: #7cbe11;
+  border-color: #7cbe11;
+  box-shadow: 0 0 0 0.25rem #7cbe1169;
+}
+.text-main{
+  color: #7cbe11
+ }
+/* loading component */
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Footer component */
+.footer-area li{
+  padding-bottom: 10px;
+}
+
+.social-media .icon{
+  height: 40px;
+  width: 40px;
+  color: #040808;
+  border-radius: 50%;
+  border: 1px solid #040a0a;
+  padding: 10px;
+}
+.social-media .active-icon{
+  background-color: #0a0c0c ;
+  color:white;
+}

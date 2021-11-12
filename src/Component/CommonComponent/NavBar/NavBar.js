@@ -30,9 +30,6 @@ const NavBar = () => {
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/userOrder">Orders</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/checkout">Checkout</Link>
-            </li>
             {!userDataInfo.isSignedIn ? <li className="nav-item ms-xl-3">
               <Link className="btn btn-dark" to="/login">Login</Link>
             </li> : ""}
